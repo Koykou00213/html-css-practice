@@ -1,0 +1,125 @@
+
+.p {
+    font-style: Arial;
+}
+
+.profile-picture {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: rgb(43, 42, 42);
+    transition: 0.30s;
+    cursor: pointer;
+}
+
+.profile-picture:hover {
+    border-radius: 17.5px;
+}
+
+.all-pic {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(46, 45, 45);
+    width: 87px;
+    margin-left: 0px;
+    box-shadow: inset 0 2px 5px rgba(0 0 0 .15);
+}
+
+.text {
+    background-color: gray;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(68, 67, 67);
+    width: 200px;
+    
+    margin-left: 87px;
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    box-shadow: inset 0 2px 5px rgba(0 0 0 .15);
+}
+
+    .text-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-all {
+    display: flex;
+
+    width: 160px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 0.5px;
+    
+    
+} 
+
+.info {
+    color: white;
+    font-size: 15px;
+
+}
+
+.plus {
+    color: rgb(201, 196, 196);
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+
+
+    
+}
+
+.text-parag {
+    color: rgb(197, 195, 195);
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    width: 175px;
+    text-align
+
+    border-radius: 5px;
+
+    
+
+}
+
+.individ-text {
+
+    padding-left: 10px;
+}
+
+.individ-text:hover {
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+
+    
+    
+    
+    cursor: pointer;
+}

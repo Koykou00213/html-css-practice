@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribute items to the edges */
+    align-items: center; /* Vertically center items */
+    background-color: #f0f0f0; /* Optional background color for illustration */
+    padding: 10px; /* Optional padding for spacing */
+}
+
+.info {
+    /* Adjust margin-right as needed to position INFO closer to the center-right */
+    margin-right: 20px;
+}
+
+.plus {
+    /* Push the plus sign all the way to the right */
+    margin-left: auto;
+}

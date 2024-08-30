@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    .channel {
+        display: flex;
+        align-items: center;
+    }
+    
+    .channel-picture {
+        display: inline-block;
+        position: relative; /* This makes the <div> the relative positioning element */
+        margin-right: 10px; /* Space between image and text */
+    }
+    
+    .channel-picture img {
+        border-radius: 50%; /* Make the image circular */
+        width: 50px; /* Set the size of the image */
+        height: 50px;
+    }
+    
+    .channel-info {
+        display: inline-block;
+    }
+</style>
+</head>
+
+<body>
+<div class="channel">
+    <div class="channel-picture">
+        <img src="path-to-image.jpg" alt="Channel Picture">
+    </div>
+    <div class="channel-info">
+        <h3>Marques Brownlee</h3>
+        <p>15M subscribers</p>
+    </div>
+</body>
+</div>
+</html>

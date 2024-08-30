@@ -1,0 +1,68 @@
+
+.all {
+    display: flex;
+    column-gap: 30px;
+
+    
+}
+
+.t-shirt-sale {
+    height: 350px;
+    width: 250px;
+
+
+    border-width: 1px;
+    border-style: 1px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 20);
+
+
+}
+
+.percent-off {
+    font-family: Arial;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    top: 10px;
+    right: 0;
+}
+
+.inside-box {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 50%;
+
+
+    background-color: rgb(255, 253, 253);
+
+    opacity: .5;
+
+    
+    
+}
+
+.button {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    top: 70%;
+}
+
+.cart-button {
+    align-self: center;
+    font-weight: bold;
+    padding: 7px 10px 7px 10px;
+    opacity: 100%;
+}

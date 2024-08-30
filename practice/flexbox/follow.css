@@ -1,0 +1,62 @@
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    background-color: lightblue;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.parag-1, 
+.parag-2 {
+    color: rgb(96, 96, 96);
+    
+}
+
+.parag-2 {
+    font-size: 15px;
+}
+.parag-1 {
+    font-size: 16px;
+}
+.parag-0 {
+    font-size: 18;
+}
+.follow-button {
+height: 40px;
+width: 80px;
+color: white;
+font-weight: bold;
+background-color: rgb(29, 161, 242);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+
+.left-section {
+    width: 170px;
+    
+}
+
+.middle-section {
+    width: 200px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.right-section {
+    margin-right: 20px;
+
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    margin: 10px 10px 10px 10px;
+
+}

@@ -1,0 +1,59 @@
+
+.google-img {
+    vertical-align: top;
+    display: block;
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    margin: 20px 20px 20px 20px;
+
+
+}
+.google-button {
+
+    display: inline-block;
+
+}
+.g-buttons {
+    cursor: pointer;
+    vertical-align: top;
+    background-color: rgba(245, 244, 244, 0.979);
+    border: none;
+    color: black;
+    width: 200px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px 0px 15px 20px;
+    margin: 10px 50px 10px 20px;
+}
+.search-bar {
+    width: 500px;
+    height: 40px;
+
+    border-color: gainsboro;
+    border-width: .5px;
+    border-radius: 20px; 
+    text-align: left;  
+    margin: 0px 0px 10px 0px
+    
+}
+
+.search-bar::placeholder {
+    color: #888; /* Optional: Change placeholder text color */
+    text-align: left; /* Center the placeholder text */
+    padding-left: 15px; /* Adjust padding as needed */
+    font-size: 15px;
+    font-weight: bold;
+}
+.search-bar:hover {
+    box-shadow: 0px 3px 5px rgba(192, 185, 185, 0.5)  
+    
+}
+
+html{
+height: 100%;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
